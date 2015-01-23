@@ -1,0 +1,27 @@
+{
+  "name": "wwrouter",
+  "main": "dist/wwrouter.js",
+  "version": "0.0.1",
+  "homepage": "https://github.com/georgeOsdDev/wwrouter",
+  "authors": [
+    "Takeharu Oshida <georgeosddev@gmail.com>"
+  ],
+  "description": "Web Worker routing library.",
+  "keywords": [
+    "web worker",
+    "router",
+    "http",
+    "websocket",
+    "async",
+    "actor",
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+    "lib"
+  ]
+}
