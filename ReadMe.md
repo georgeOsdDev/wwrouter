@@ -9,7 +9,7 @@ All clients work on background as [Web Worker](https://developer.mozilla.org/en-
 
 // HTTPRequest worker
 // get/post/put/delete is available
-var msgs = WWRouter("/msgs");
+var msgs = WWRouter.route("/msgs");
     msgs.get({limit:10})
         .then(function(result){
           console.log(result.status, result.body)
@@ -27,7 +27,7 @@ var msgs = WWRouter("/msgs");
         })
 
 //routing with path param
-var msg1 = WWRouter("/msgs/:id", {id:1})
+var msg1 = WWRouter.route("/msgs/:id", {id:1})
     msg1.delete({})
         .then(function(result){
           console.log(result.status, result.body)
